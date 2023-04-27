@@ -7,4 +7,4 @@ RUN npm install
 
 COPY config.js config.js
 
-CMD [npm, start]
+CMD ["/usr/local/bin/npm", "start"]
